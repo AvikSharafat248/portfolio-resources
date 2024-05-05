@@ -15,15 +15,14 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: #181818;
     font-size: 45px;
     
-    font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
+    font-weight: 800;
+  
 }
 .btn-primary{
     background-color: #FD6E0A;
@@ -50,4 +49,16 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+ .banner .profile{
+    width: 500px;
+
 }
